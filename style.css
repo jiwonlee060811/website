@@ -1,4 +1,39 @@
 html {
   height: 100%;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f3e5f5;
+}
+
+h1 {
+  font-weight: 600;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+body {
+  color: #34495e;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 20px;
+}
+
+b {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
 }
